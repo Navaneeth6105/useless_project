@@ -86,7 +86,7 @@ Simulator
 The Terminal
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
+![Workflow](https://github.com/Navaneeth6105/useless_project/blob/bac67027c67d0f8bf92f972cb09db1b32c56fcad/image2.jpeg)
 1. Calculator Operations (Arduino 1): Performs basic calculations based on keypad input.
    
 2. Data Transmission: Sends numbers, operation type, and result to Arduino 2 via serial communication.
@@ -144,8 +144,8 @@ In operation, the ESP32 detects the desired WiFi, enabling calculations on the A
 
 ![Build](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
 1. Hardware Setup:
-   - Connect the **keypad** and **LCD display** to the Arduino.
-   - Link the **ESP8266** to the Arduino for WiFi detection.
+   - Connect the keypad and LCD display to the Arduino.
+   - Link the ESP8266 to the Arduino for WiFi detection.
    - Power the setup with a USB power source.
 
 2. WiFi Detection:
