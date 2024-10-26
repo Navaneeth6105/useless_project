@@ -123,7 +123,7 @@ For Hardware:
 4. 4x4 Keypad:
    - Rows and columns of the keypad are connected to digital pins 9, 8, 7, 6, 5, 4, 3, and 2 on the Arduino UNO, allowing user input for numeric entry and operations.
 
-![Schematic](https://github.com/Navaneeth6105/useless_project/blob/503e65e0224b220f63174a782f8ee9ee6e43f1fd/image.jpeg)
+# SCHEMATICS
 1. ESP32 Module: The ESP32 is used to detect specific WiFi networks. When the designated network is detected, it enables the Arduino UNO to function as a calculator.
 
 2. Arduino UNO: Serves as the main controller, handling data from the ESP32, processing inputs from the keypad, and displaying output on the LCD. It communicates with the ESP32 through its RX (D0) and TX (D1) pins for WiFi signal information.
@@ -135,14 +135,16 @@ For Hardware:
 In operation, the ESP32 detects the desired WiFi, enabling calculations on the Arduino. When the user enters calculations on the keypad, the Arduino processes the input and displays the result on the LCD—reversed.
 
 # Build Photos
-![Components](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
+
+# components
 1. Keypad 
 2. Arduino boards
 3. ESP8266 module 
 4. LCD Display 
-5. Power bank 
+5. Power bank
+6. Jumper wires
 
-![Build](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
+# project build
 1. Hardware Setup:
    - Connect the keypad and LCD display to the Arduino.
    - Link the ESP8266 to the Arduino for WiFi detection.
@@ -158,6 +160,7 @@ In operation, the ESP32 detects the desired WiFi, enabling calculations on the A
 4. Testing:
    - Verify keypad, WiFi detection, reversed display, and brightness adjustment for the final setup.
 
+# final build
 ![image alt](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
 This setup is a WiFi-enabled calculator for a "useless project." It consists of:
 
