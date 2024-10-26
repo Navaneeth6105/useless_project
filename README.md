@@ -87,23 +87,76 @@ The Terminal
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+1. Calculator Operations (Arduino 1): Performs basic calculations based on keypad input.
+   
+2. Data Transmission: Sends numbers, operation type, and result to Arduino 2 via serial communication.
+
+3. WiFi Signal Monitoring (ESP32): Detects WiFi signal strength of a specific network.
+
+4. Signal Strength Transmission: Passes WiFi signal strength to Arduino 2.
+
+5. Data Storage (Arduino 2): Stores received calculation and signal strength data.
+
+6. LCD Contrast Adjustment: Adjusts LCD contrast based on WiFi signal strength.
+
+7. Display Output: Shows results on LCD with modified contrast and reversed output.
+
+8. Reset on 'Clear': Clears display for new calculations when "Clear" is pressed.
 
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![Circuit](https://github.com/Navaneeth6105/useless_project/blob/503e65e0224b220f63174a782f8ee9ee6e43f1fd/image.jpeg)
+1. ESP32:
+   - RX2 and D4 are connected to Arduino UNO's RX and TX pins, respectively, for serial communication.
+   - D2 is connected to Arduino UNO’s digital pin 2.
+   
+2. LCD Display:
+   - The LCD display (labeled “Enter the Numbers”) is connected to the Arduino UNO using the following pins:
+     - R5, EN, D4, D5, D6, and D7 are connected to digital pins 8, 9, 12, 11, 5, and 4 on the Arduino UNO, respectively.
+     - V0 controls the contrast, and VSS, VDD, and V0 are powered according to the display's requirements.
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+3. Arduino UNO:
+   - Acts as the main controller, connecting the ESP32, LCD display, and keypad.
+   - RX and TX pins are connected to the ESP32 for serial communication.
+   
+4. 4x4 Keypad:
+   - Rows and columns of the keypad are connected to digital pins 9, 8, 7, 6, 5, 4, 3, and 2 on the Arduino UNO, allowing user input for numeric entry and operations.
+
+![Schematic](https://github.com/Navaneeth6105/useless_project/blob/503e65e0224b220f63174a782f8ee9ee6e43f1fd/image.jpeg)
+1. ESP32 Module: The ESP32 is used to detect specific WiFi networks. When the designated network is detected, it enables the Arduino UNO to function as a calculator.
+
+2. Arduino UNO: Serves as the main controller, handling data from the ESP32, processing inputs from the keypad, and displaying output on the LCD. It communicates with the ESP32 through its RX (D0) and TX (D1) pins for WiFi signal information.
+
+3. LCD Display: Shows prompts and results for the calculator. The display's data and control pins are connected to digital pins (8, 9, 12, 11, 5, 4) on the Arduino UNO.
+
+4. 4x4 Keypad: Allows the user to input numbers and operations. The keypad is wired to the Arduino’s digital pins (2 to 9), where each row and column is mapped for unique key recognition.
+
+In operation, the ESP32 detects the desired WiFi, enabling calculations on the Arduino. When the user enters calculations on the keypad, the Arduino processes the input and displays the result on the LCD—reversed.
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+![Components](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
+1. Keypad 
+2. Arduino boards
+3. ESP8266 module 
+4. LCD Display 
+5. Power bank 
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+![Build](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
+1. Hardware Setup:
+   - Connect the **keypad** and **LCD display** to the Arduino.
+   - Link the **ESP8266** to the Arduino for WiFi detection.
+   - Power the setup with a USB power source.
+
+2. WiFi Detection:
+   - Program the ESP8266 to detect a specific WiFi network and send signal strength to the Arduino.
+
+3. Calculator Logic:
+   - Code the Arduino to handle keypad inputs, perform calculations, and reverse the result before displaying on the LCD.
+   - Use signal strength to adjust LCD brightness (brighter/dimmer with stronger signal).
+
+4. Testing:
+   - Verify keypad, WiFi detection, reversed display, and brightness adjustment for the final setup.
 
 ![image alt](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
 This setup is a WiFi-enabled calculator for a "useless project." It consists of:
@@ -123,9 +176,9 @@ In essence, it’s a calculator that only works when connected to WiFi, displays
 
 
 ## Team Contributions
-- Nvaneeth K:  ntributions]
-- Athena S Kumar: [Specific contributions]
-- Sanika Ramesh: [Specific contributions]
+- Nvaneeth K:  Hardware setup
+- Athena S Kumar: Software setup
+- Sanika Ramesh: WiFi connection, Documentation
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
