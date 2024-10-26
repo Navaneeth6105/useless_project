@@ -118,7 +118,7 @@ For Hardware:
 
 3. Arduino UNO:
    - Acts as the main controller, connecting the ESP32, LCD display, and keypad.
-   - RX and TX pins are connected to the ESP32 for serial communication.
+   - RX and TX pins are connected to the next Arduino UNO's TX and RX for serial communication.
    
 4. 4x4 Keypad:
    - Rows and columns of the keypad are connected to digital pins 9, 8, 7, 6, 5, 4, 3, and 2 on the Arduino UNO, allowing user input for numeric entry and operations.
