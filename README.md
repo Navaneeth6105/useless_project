@@ -145,6 +145,7 @@ In operation, the ESP32 detects the desired WiFi, enabling calculations on the A
 6. Jumper wires
 
 # project build
+![image alt](https://github.com/Navaneeth6105/useless_project/blob/9cefd35e1d23df266237b365e280336184b6e9f0/image3.jpeg)
 1. Hardware Setup:
    - Connect the keypad and LCD display to the Arduino.
    - Link the ESP8266 to the Arduino for WiFi detection.
