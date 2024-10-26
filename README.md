@@ -171,7 +171,7 @@ In essence, it’s a calculator that only works when connected to WiFi, displays
 
 ### Project Demo
 # Video
-[]
+[https://github.com/Navaneeth6105/useless_project/blob/c1faa0a7bc765e9f453e760551a5195f905a1f15/My%20movie%201_216x384%20(1)_184x326.mp4]
 
 
 
