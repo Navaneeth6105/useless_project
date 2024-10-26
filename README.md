@@ -145,6 +145,7 @@ In operation, the ESP32 detects the desired WiFi, enabling calculations on the A
 6. Jumper wires
 
 # project build
+![image alt](https://github.com/Navaneeth6105/useless_project/blob/501d7a6bb94a8739bfa9612d225b82ae9a072cf0/image3.jpeg)
 1. Hardware Setup:
    - Connect the keypad and LCD display to the Arduino.
    - Link the ESP8266 to the Arduino for WiFi detection.
@@ -175,8 +176,7 @@ In essence, it’s a calculator that only works when connected to WiFi, displays
 ### Project Demo
 # Video
 [https://github.com/Navaneeth6105/useless_project/blob/c1faa0a7bc765e9f453e760551a5195f905a1f15/My%20movie%201_216x384%20(1)_184x326.mp4]
-
-
+Starting point of the demonstration involves setting up tools, objects, or positioning a subject for a specific task.Next the major features of the project including WiFi detection, reversed display of calculator result and the change in the brightness of the LCD display are demonstrated.
 
 ## Team Contributions
 - Nvaneeth K:  Hardware setup
