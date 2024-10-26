@@ -179,7 +179,7 @@ In essence, it’s a calculator that only works when connected to WiFi, displays
 
 
 ## Team Contributions
-- Nvaneeth K:  Hardware setup
+- Navaneeth K:  Hardware setup
 - Athena S Kumar: Software setup
 - Sanika Ramesh: WiFi connection, Documentation
 
