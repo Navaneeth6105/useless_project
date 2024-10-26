@@ -76,14 +76,14 @@ For Software:
 
 # Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![image alt](https://raw.githubusercontent.com/Navaneeth6105/useless_project/a6a58935e07ebb35071834d8cca37d1a093afb63/image.png)
+The Code
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![image alt](https://raw.githubusercontent.com/Navaneeth6105/useless_project/4e0e7dbcbe8e56ff968dd67e55453a64cab9d809/image.png)
+Simulator
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![image alt](https://raw.githubusercontent.com/Navaneeth6105/useless_project/454cdfe7bb8496778336bbf6bebb50e0c783d1b4/image.png)
+The Terminal
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -106,7 +106,15 @@ For Hardware:
 *Explain the build steps*
 
 ![image alt](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
-*Explain the final build*
+This setup is a WiFi-enabled calculator for a "useless project." It consists of:
+
+1. Keypad for inputting numbers and operations.
+2. Arduino boards to handle calculations and control logic.
+3. ESP8266 module to detect WiFi, adjusting the LCD brightness based on signal strength.
+4. LCD Display that shows reversed results of calculations (e.g., 5+10 = 51).
+5. Power bank for portable power.
+
+In essence, it’s a calculator that only works when connected to WiFi, displays results backwards, and has a brightness that varies with WiFi strength.
 
 ### Project Demo
 # Video
