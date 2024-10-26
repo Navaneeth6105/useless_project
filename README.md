@@ -171,8 +171,8 @@ In essence, it’s a calculator that only works when connected to WiFi, displays
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[]
+
 
 
 ## Team Contributions
