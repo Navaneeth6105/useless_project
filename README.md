@@ -105,7 +105,7 @@ For Hardware:
 ![Build](Add photos of build process here)
 *Explain the build steps*
 
-![Final](Add photo of final product here)
+![image alt](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
 *Explain the final build*
 
 ### Project Demo
