@@ -1,4 +1,4 @@
-<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c"> 
 Brightness Beyond Borders: A Calculator for Those Who Love a Challenge 🎯
 
 ### Project-Demo
@@ -39,7 +39,7 @@ In the end, we’ve solved a problem that doesn’t exist by creating a WiFi-dep
 
 
 
-## Technical Details
+# Technical Details
 ### Technologies/Components Used
 For Software:
 - C++
@@ -72,21 +72,22 @@ For Software: We used SimulIDE for simulation and Arduino CLI for compiling and 
 - screen /dev/ttyUSB0 115200sim
 
 
-### Project Documentation
-For Software:
+# Project Documentation
 
-# Screenshots (Add at least 3)
+## For Software:
+
+### Screenshots (Add at least 3)
 
 ![image alt](https://raw.githubusercontent.com/Navaneeth6105/useless_project/a6a58935e07ebb35071834d8cca37d1a093afb63/image.png)
-The Code
+ Geany text editor used for coding
 
 ![image alt](https://raw.githubusercontent.com/Navaneeth6105/useless_project/4e0e7dbcbe8e56ff968dd67e55453a64cab9d809/image.png)
-Simulator
+Simulator used: SimulIDE-1.1.0-SR0
 
 ![image alt](https://raw.githubusercontent.com/Navaneeth6105/useless_project/454cdfe7bb8496778336bbf6bebb50e0c783d1b4/image.png)
-The Terminal
+Terminal showing WiFi proximity 
 
-# Diagrams
+### Diagrams
 ![Workflow](https://github.com/Navaneeth6105/useless_project/blob/bac67027c67d0f8bf92f972cb09db1b32c56fcad/image2.jpeg)
 1. Calculator Operations (Arduino 1): Performs basic calculations based on keypad input.
    
@@ -104,10 +105,11 @@ The Terminal
 
 8. Reset on 'Clear': Clears display for new calculations when "Clear" is pressed.
 
-For Hardware:
+## For Hardware:
 
-# Schematic & Circuit
+### Schematic & Circuit
 ![Circuit](https://github.com/Navaneeth6105/useless_project/blob/503e65e0224b220f63174a782f8ee9ee6e43f1fd/image.jpeg)
+![Photo]()
 1. ESP32:
    - RX2 and D4 are connected to Arduino UNO's RX and TX pins, respectively, for serial communication.
    - D2 is connected to Arduino UNO’s digital pin 2.
