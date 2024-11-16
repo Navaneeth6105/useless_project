@@ -109,7 +109,7 @@ Terminal showing WiFi proximity
 
 ### Schematic & Circuit
 ![Circuit](https://github.com/Navaneeth6105/useless_project/blob/503e65e0224b220f63174a782f8ee9ee6e43f1fd/image.jpeg)
-![Photo]()
+![Photo](https://github.com/Navaneeth6105/useless_project/blob/b5daf48365d6e69db4cf879aeabc43af6ccf944e/Implementation%20.jpg)
 1. ESP32:
    - RX2 and D4 are connected to Arduino UNO's RX and TX pins, respectively, for serial communication.
    - D2 is connected to Arduino UNO’s digital pin 2.
@@ -126,7 +126,8 @@ Terminal showing WiFi proximity
 4. 4x4 Keypad:
    - Rows and columns of the keypad are connected to digital pins 9, 8, 7, 6, 5, 4, 3, and 2 on the Arduino UNO, allowing user input for numeric entry and operations.
 
-# SCHEMATICS
+### Schematics
+
 1. ESP32 Module: The ESP32 is used to detect specific WiFi networks. When the designated network is detected, it enables the Arduino UNO to function as a calculator.
 
 2. Arduino UNO: Serves as the main controller, handling data from the ESP32, processing inputs from the keypad, and displaying output on the LCD. It communicates with the other Arduino UNO through its RX and TX pins for WiFi signal information.
@@ -139,7 +140,7 @@ In operation, the ESP32 detects the desired WiFi, enabling calculations on the A
 
 # Build Photos
 
-# components
+### Components
 1. Keypad 
 2. Arduino boards
 3. ESP8266 module 
