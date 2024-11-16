@@ -1,7 +1,8 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
-..
-### Brightness Beyond Borders: A Calculator for Those Who Love a Challenge 🎯
+Brightness Beyond Borders: A Calculator for Those Who Love a Challenge 🎯
 
+### Project-Demo
+https://youtu.be/8qDpb8Y6chI?feature=shared
 
 ### Basic Details
 ### Team Name: Synovate
