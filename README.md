@@ -4,9 +4,9 @@ Brightness Beyond Borders: A Calculator for Those Who Love a Challenge 🎯
 ### Project-Demo
 https://youtu.be/8qDpb8Y6chI?feature=shared
 
-### Basic Details
-### Team Name: Synovate
+## Basic Details
 
+### Team Name: Synovate
 
 ### Team Members
 - Team Lead: Navaneeth K - Government College of Engineering Kannur
@@ -40,28 +40,29 @@ In the end, we’ve solved a problem that doesn’t exist by creating a WiFi-dep
 
 
 # Technical Details
-### Technologies/Components Used
-For Software:
+
+## Technologies/Components Used
+### For Software:
 - C++
 - Arduino Core for ESP32 and Arduino
 - Keypad.h,LiquidCrystal.h.
 - Arduino CLI,Text editors,Simulide simulation.
 
-For Hardware:
+### For Hardware:
 - ESP32,Arduino UNO,Liquid Crystal Display,Keypad,Breadboard,Jumper wires,powersupply.
 - ESP devkit v1,arduino UNO(2 Nos),Keypad 4*4,HD44780 LCD,Jumper wires(male to male),USB cable(power supply connection from powerbank).
 - multimeter,stripper.
 
-### Implementation
+## Implementation
 For Software: We used SimulIDE for simulation and Arduino CLI for compiling and uploading sketches, first we created our circuit in SimulIDE and simulated our circuit. Then by using Arduino CLI to compile the sketch with arduino-cli compile and uploaded it to the Arduino board and esp 32.
 
-# Installation
+## Installation
 - yay -S arduino-cli
 - git clone https://aur.archlinux.org/arduino-cli.git
 - cd arduino-cli
 - makepkg -si
 
-# Run
+## Run
 - arduino-cli config init
 - arduino-cli core update-index
 - arduino-cli core install arduino:avr
@@ -70,8 +71,7 @@ For Software: We used SimulIDE for simulation and Arduino CLI for compiling and 
 - arduino-cli board list
 - arduino-cli upload -p /dev/ttyUSB0 --fqbn esp32:esp32:esp32dev /path/to/your/sketch.ino
 - screen /dev/ttyUSB0 115200sim
-
-
+  
 # Project Documentation
 
 ## For Software:
