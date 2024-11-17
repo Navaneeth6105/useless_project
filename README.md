@@ -195,17 +195,18 @@ In essence, it’s a calculator that only works when connected to WiFi, displays
 [https://youtu.be/8qDpb8Y6chI?feature=shared]
 
 ## Team Contributions
+ 
  Navaneeth K:
 -  Implemented the Arduino code for arithmetic operations and WiFi signal detection.
   - Integrated the ESP32 module for controlling LCD brightness based on WiFi signal strength.
 
-    
- Athena S Kumar:
+     
+Athena S Kumar:
 - Managed the user input system and ensured seamless interaction between the input and arithmetic logic.
 - Designed and assembled the hardware setup, including the LCD connection and ESP32 module.
 
   
-  Sanika Ramesh:
+Sanika Ramesh:
 -  Documented the project, wrote the code comments and hosted on github.
 -  Developed the LCD display logic for outputting results and managing brightness levels.
 
