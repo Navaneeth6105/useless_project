@@ -141,14 +141,27 @@ In operation, the ESP32 detects the desired WiFi, enabling calculations on the A
 # Build Photos
 
 ### Components
-1. Keypad 
-2. Arduino boards
-3. ESP8266 module 
-4. LCD Display 
-5. Power bank
-6. Jumper wires
 
-# project build
+1. Keypad 
+![keypad](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/Keypad.jpg)
+
+2. Arduino boards
+![Arduino](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/Arduino_board.jpg)
+
+3. ESP8266 module
+![esp](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/ESP8266_module.jpg)
+
+4. LCD Display
+[lcd](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/LCD_display.jpg)
+
+5. Power bank
+[powerbnk](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/Power_bank.jpg)
+
+6. Jumper wires
+[jumperwire](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/Jumper_wires.jpg)
+
+### project build
+
 ![image alt](https://github.com/Navaneeth6105/useless_project/blob/9cefd35e1d23df266237b365e280336184b6e9f0/image3.jpeg)
 1. Hardware Setup:
    - Connect the keypad and LCD display to the Arduino.
@@ -165,7 +178,7 @@ In operation, the ESP32 detects the desired WiFi, enabling calculations on the A
 4. Testing:
    - Verify keypad, WiFi detection, reversed display, and brightness adjustment for the final setup.
 
-# final build
+### final build
 ![image alt](https://github.com/Navaneeth6105/useless_project/blob/main/finalbuildd.jpeg?raw=true)
 This setup is a WiFi-enabled calculator for a "useless project." It consists of:
 
@@ -177,8 +190,8 @@ This setup is a WiFi-enabled calculator for a "useless project." It consists of:
 
 In essence, it’s a calculator that only works when connected to WiFi, displays results backwards, and has a brightness that varies with WiFi strength.
 
-### Project Demo
-# Video
+# Project Demo
+### YouTube Video
 [https://github.com/Navaneeth6105/useless_project/blob/c1faa0a7bc765e9f453e760551a5195f905a1f15/My%20movie%201_216x384%20(1)_184x326.mp4]
 
 
