@@ -152,13 +152,13 @@ In operation, the ESP32 detects the desired WiFi, enabling calculations on the A
 ![esp](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/ESP8266_module.jpg)
 
 4. LCD Display
-[lcd](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/LCD_display.jpg)
+![lcd](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/LCD_display.jpg)
 
 5. Power bank
-[powerbnk](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/Power_bank.jpg)
+![powerbnk](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/Power_bank.jpg)
 
 6. Jumper wires
-[jumperwire](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/Jumper_wires.jpg)
+![jumperwire](https://github.com/Navaneeth6105/useless_project/blob/d689dad555b70e4e2cd431a2c41b9c5e3050e671/Jumper_wires.jpg)
 
 ### project build
 
