@@ -79,7 +79,7 @@ For Software: We used SimulIDE for simulation and Arduino CLI for compiling and 
 ### Screenshots (Add at least 3)
 
 ![image alt](https://raw.githubusercontent.com/Navaneeth6105/useless_project/a6a58935e07ebb35071834d8cca37d1a093afb63/image.png)
- Geany text editor used for coding
+ Geany text editor 
 
 ![image alt](https://raw.githubusercontent.com/Navaneeth6105/useless_project/4e0e7dbcbe8e56ff968dd67e55453a64cab9d809/image.png)
 Simulator used: SimulIDE-1.1.0-SR0
