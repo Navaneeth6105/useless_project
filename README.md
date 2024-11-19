@@ -5,9 +5,9 @@ Brightness Beyond Borders: A Calculator for Those Who Love a Challenge 🎯
 https://youtu.be/8qDpb8Y6chI?feature=shared
 
 ## Program Codes
-!(lcd.ino)[https://github.com/Navaneeth6105/useless_project/blob/4ca9c371879cf01d87ea965929fb246fedafaa26/lcd.ino]
+https://github.com/Navaneeth6105/useless_project/blob/4ca9c371879cf01d87ea965929fb246fedafaa26/lcd.ino
 
-!(espwifi.ino)[https://github.com/Navaneeth6105/useless_project/blob/4ca9c371879cf01d87ea965929fb246fedafaa26/espwifi.ino]
+https://github.com/Navaneeth6105/useless_project/blob/4ca9c371879cf01d87ea965929fb246fedafaa26/espwifi.ino
 
 ## Basic Details
 
